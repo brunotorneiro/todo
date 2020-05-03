@@ -21,8 +21,8 @@ const ToDoList = (props) => {
     }
 
     function DoneImg (props) {
-        if(props.done) return <img src="./done.png" alt="Delete"width='40px'></img>
-        else return <img src="./do.png" alt="Delete"width='40px'></img>
+        if(props.done) return <img src="./done.png" alt="Done"width='40px'></img>
+        else return <img src="./do.png" alt="Do"width='40px'></img>
     }
 
     function onEdit (e) {
