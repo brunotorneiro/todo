@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.my-bg {
+  background: #666;
+}
+
+p{
+  padding: 8px; 
+}
+.done {
+  text-decoration: line-through;
+}
+
+.title{
+  padding: 15px;
+  background: #3D80B3;
+  color: white;
+}
